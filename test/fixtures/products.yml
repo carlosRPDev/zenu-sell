@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+TVSamsung:
+  title: Tv Samsung 43 pulgadas
+  description: Tv Samsung de 43 pulgadas en buen estado
+  price: 110000
+
+TecladoMecanico:
+  title: Teclado Mecanico Keychrom K2 v2
+  description: Teclado mecanico Keychrom k2 v2 con daño en la tecla enter
+  price: 200000
