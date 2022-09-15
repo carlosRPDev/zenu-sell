@@ -35,4 +35,16 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
 		assert_redirected_to products_path
 	end
+
+	test 'does not allow to create a new product with empty fiellds' do
+		post products_path, params: {
+			product: {
+				title: '',
+				description: 'Bateria de carga dañada, necesita cambio',
+				price: 20000
+			}
+		}
+
+		assert_response :unprocessable_entity
+	end
 end
