@@ -4,8 +4,16 @@ TVSamsung:
   title: Tv Samsung 43 pulgadas
   description: Tv Samsung de 43 pulgadas en buen estado
   price: 110000
+  category: homes
 
 TecladoMecanico:
   title: Teclado Mecanico Keychrom K2 v2
   description: Teclado mecanico Keychrom k2 v2 con daño en la tecla enter
   price: 200000
+  category: computers
+
+ps4:
+  title: PS4 Fat
+  description: PS4 en buen estado
+  price: 2500000
+  category: videogames
