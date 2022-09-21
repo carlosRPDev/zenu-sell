@@ -5,7 +5,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     get products_path
 
     assert_response :success
-    assert_select '.product', 2
+    assert_select '.product', 3
   end
 
   test 'render a detailed product page' do
@@ -29,7 +29,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
       product: {
         title: 'Mouse Inalambrico',
         description: 'Bateria de carga dañada, necesita cambio',
-        price: 20000
+        price: 20000,
+        category_id: categories(:computers).id
       }
     }
 
