@@ -33,12 +33,17 @@ en:
   activerecord:
     models:
       product: Product
+      category: Category
     attributes:
       product:
         title: "Title"
         description: "Description"
         price: "Price"
         photo: "Photo"
+        category: "Category"
+        category_id: "Category"
+      category:
+        name: "Name"
     errors:
       models:
         product:
@@ -49,6 +54,8 @@ en:
               blank: "can't be blank"
             title:
               blank: "can't be blank"
+            category:
+              required: "must exist"
   common:
     confirm: "Are you sure?"
     back: "Go back"

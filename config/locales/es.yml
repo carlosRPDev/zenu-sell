@@ -2,12 +2,17 @@ es:
   activerecord:
     models:
       product: Producto
+      category: Categoria
     attributes:
       product:
         title: "Título"
         description: "Descripción"
         price: "Precio"
         photo: "Foto"
+        category: "Categoria"
+        category_id: "Categoria"
+      category:
+        name: "Nombre"
     errors:
       models:
         product:
@@ -18,6 +23,8 @@ es:
               blank: "no puede estar vacío"
             title:
               blank: "no puede estar vacío"
+            category:
+              required: "debe existir"
   common:
     confirm: "¿Estás seguro?"
     back: "Volver"
