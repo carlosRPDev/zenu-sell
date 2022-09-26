@@ -30,6 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  app_name: "Zenú Shop"
+  meta_title: "Purchase and sale of products at the best prices!"
   activerecord:
     models:
       product: Product

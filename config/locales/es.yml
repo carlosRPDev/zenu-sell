@@ -1,4 +1,6 @@
 es:
+  app_name: "Zenú"
+  meta_title: "compra y venta de productos a los mejores precios!"
   activerecord:
     models:
       product: Producto
