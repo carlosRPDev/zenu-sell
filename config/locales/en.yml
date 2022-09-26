@@ -74,6 +74,9 @@ en:
       max_price: "Max price"
       min_price: "Min price"
       query_text: "What do you to search?"
+      expensive: "Expenive firt"
+      cheapest: "Cheaper first"
+      newest: "Recently added"
     show:
       edit: "Edit product"
       delete: "Delete product"
