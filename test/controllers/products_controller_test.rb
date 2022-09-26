@@ -17,6 +17,15 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_select '.category', 4
   end
 
+  test 'render a list of products filtered by min_price and max_price' do
+    get products_path(min_price: 100000, max_price: 210000)
+
+    assert_response :success
+    assert_select '.product', 2
+    assert_select 'h2', 'Tv Samsung 43 pulgadas'
+    assert_select 'h2', 'Teclado Mecanico Keychrom K2 v2'
+  end
+
   test 'render a detailed product page' do
     get product_path(products(:TecladoMecanico))
 
