@@ -26,6 +26,14 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_select 'h2', 'Teclado Mecanico Keychrom K2 v2'
   end
 
+  test 'search a productby query_text' do
+    get products_path(query_text: 'PS4 Fat')
+
+    assert_response :success
+    assert_select '.product', 1
+    assert_select 'h2', 'PS4 Fat'
+  end
+
   test 'render a detailed product page' do
     get product_path(products(:TecladoMecanico))
 
