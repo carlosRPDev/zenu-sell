@@ -1,13 +1,20 @@
 es:
+  app_name: "Zenú"
+  meta_title: "compra y venta de productos a los mejores precios!"
   activerecord:
     models:
       product: Producto
+      category: Categoria
     attributes:
       product:
         title: "Título"
         description: "Descripción"
         price: "Precio"
         photo: "Foto"
+        category: "Categoria"
+        category_id: "Categoria"
+      category:
+        name: "Nombre"
     errors:
       models:
         product:
@@ -18,11 +25,15 @@ es:
               blank: "no puede estar vacío"
             title:
               blank: "no puede estar vacío"
+            category:
+              required: "debe existir"
   common:
     confirm: "¿Estás seguro?"
+    back: "Volver"
   shared:
     header:
       add: "Añadir producto"
+      categories: "Categorias"
   products:
     edit:
       title: "Editar producto"
@@ -30,6 +41,13 @@ es:
       title: "Añadir producto"
     index:
       title: "Productos:"
+      all: "Todos"
+      max_price: "Precio máximo"
+      min_price: "Precio mínimo"
+      query_text: "¿Qué quieres buscar?"
+      expensive: "Más caros"
+      cheapest: "Más baratos"
+      newest: "Añadidos recientemente"
     show:
       edit: "Editar producto"
       delete: "Borrar producto"
@@ -39,3 +57,20 @@ es:
       updated: "Tu producto se ha actualizado correctamente"
     destroy:
       destroyed: "Tu producto se ha eliminado correctamente"
+  categories:
+    category:
+      edit: "Editar"
+      delete: "Borrar"
+    index:
+      title: "Categorías"
+      new: "Añadir categoría"
+    edit:
+      title: "Editar categoría"
+    create:
+      created: "Tu categoría se ha creado correctamente"
+    update:
+      updated: "Tu categoría se ha actualizado correctamente"
+    destroy:
+      destroyed: "Tu categoría se ha eliminado correctamente"
+    new:
+      title: "Añadir categoría"

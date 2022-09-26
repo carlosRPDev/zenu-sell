@@ -30,15 +30,22 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  app_name: "Zenú Shop"
+  meta_title: "Purchase and sale of products at the best prices!"
   activerecord:
     models:
       product: Product
+      category: Category
     attributes:
       product:
         title: "Title"
         description: "Description"
         price: "Price"
         photo: "Photo"
+        category: "Category"
+        category_id: "Category"
+      category:
+        name: "Name"
     errors:
       models:
         product:
@@ -49,11 +56,15 @@ en:
               blank: "can't be blank"
             title:
               blank: "can't be blank"
+            category:
+              required: "must exist"
   common:
     confirm: "Are you sure?"
+    back: "Go back"
   shared:
     header:
       add: "Add product"
+      categories: "Categories"
   products:
     edit:
       title: "Edit product"
@@ -61,6 +72,13 @@ en:
       title: "Add product"
     index:
       title: "Products:"
+      all: "All"
+      max_price: "Max price"
+      min_price: "Min price"
+      query_text: "What do you to search?"
+      expensive: "Expenive firt"
+      cheapest: "Cheaper first"
+      newest: "Recently added"
     show:
       edit: "Edit product"
       delete: "Delete product"
@@ -70,3 +88,20 @@ en:
       updated: "Your product has been successfully updated"
     destroy:
       destroyed: "Your product has been successfully destroyed"
+  categies:
+    cetegory:
+      edit: "Edit"
+      delete: "Delete"
+    index:
+      title: "Categories"
+      new: "Add category"
+    edit:
+      title: "Edit category"
+    new:
+      title: "New category"
+    create:
+      created: "Your category has been successfully created"
+    update:
+      updated: "Your category has been successfully updated"
+    destroy:
+      destroyed: "Your category has been successfully destroyed"
