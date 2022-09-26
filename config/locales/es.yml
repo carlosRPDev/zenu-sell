@@ -40,6 +40,8 @@ es:
     index:
       title: "Productos:"
       all: "Todos"
+      max_price: "Precio máximo"
+      min_price: "Precio mínimo"
     show:
       edit: "Editar producto"
       delete: "Borrar producto"
