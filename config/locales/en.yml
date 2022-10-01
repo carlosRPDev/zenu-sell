@@ -65,6 +65,10 @@ en:
     header:
       add: "Add product"
       categories: "Categories"
+  authentication:
+    users:
+      create:
+        created: "Your account has been created!"
   products:
     edit:
       title: "Edit product"

@@ -27,6 +27,16 @@ es:
               blank: "no puede estar vacío"
             category:
               required: "debe existir"
+        user:
+          attributes:
+            email:
+              invalid: "no permitido"
+            password:
+              too_short: "demasiado corto"
+            username:
+              invalid: "invalido"
+              too_long: "demasiado largo"
+              too_short: "demasiado corto"
   common:
     confirm: "¿Estás seguro?"
     back: "Volver"
@@ -34,6 +44,10 @@ es:
     header:
       add: "Añadir producto"
       categories: "Categorias"
+  authentication:
+    users:
+      create:
+        created: "Tu cuenta se a creado"
   products:
     edit:
       title: "Editar producto"
