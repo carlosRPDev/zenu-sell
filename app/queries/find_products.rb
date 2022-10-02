@@ -1,4 +1,5 @@
-class FindProducts\
+# Query Objects Pattern
+class FindProducts
 	attr_reader :products
 
 	def initialize(products = initial_scope)
