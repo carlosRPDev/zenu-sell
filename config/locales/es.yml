@@ -5,6 +5,7 @@ es:
     models:
       product: Producto
       category: Categoria
+      user: Usuario
     attributes:
       product:
         title: "Título"
@@ -15,28 +16,10 @@ es:
         category_id: "Categoria"
       category:
         name: "Nombre"
-    errors:
-      models:
-        product:
-          attributes:
-            price:
-              blank: "no puede estar vacío"
-            description:
-              blank: "no puede estar vacío"
-            title:
-              blank: "no puede estar vacío"
-            category:
-              required: "debe existir"
-        user:
-          attributes:
-            email:
-              invalid: "no permitido"
-            password:
-              too_short: "demasiado corto"
-            username:
-              invalid: "invalido"
-              too_long: "demasiado largo"
-              too_short: "demasiado corto"
+      user:
+        email: "Correo electrónico"
+        username: "Usuario"
+        password: "Contraseña"
   common:
     confirm: "¿Estás seguro?"
     back: "Volver"
@@ -45,6 +28,9 @@ es:
     header:
       add: "Añadir producto"
       categories: "Categorias"
+      login: "Acceder"
+      register: "Registrarse"
+      logout: "Salir"
   authentication:
     users:
       create:
@@ -53,6 +39,8 @@ es:
       create:
         created: "Bienvenido!"
         failed: "Login inválido!"
+      destroy:
+        destroyed: "Tu sesión ha terminado! Hasta la próxima"
   products:
     edit:
       title: "Editar producto"
