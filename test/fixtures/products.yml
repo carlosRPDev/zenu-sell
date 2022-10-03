@@ -26,14 +26,14 @@ intendo64:
   description: Con su caja, solo tiene algún pequeño arañazo
   price: 190000
   category: videogames
-  user: carlos
+  user: maria
 
 megadrive:
   title: Sega Megadrive
   description: Funciona perfectamente, solo consola
   price: 90000
   category: videogames
-  user: carlos
+  user: maria
 
 driver2:
   title: Driver 2 para ps1
@@ -54,7 +54,7 @@ gameboy:
   description: Con su caja. Color morada transparente.
   price: 150000
   category: videogames
-  user: carlos
+  user: maria
 
 imac:
   title: iMac 27" 2015
@@ -75,14 +75,14 @@ nvidia:
   description: Solo usada 3 meses la vendo porque no la uso
   price: 1500000
   category: computers
-  user: carlos
+  user: maria
 
 ram:
   title: 16GB Ram DDR4 3200mhz
   description: Funciona perfectamente
   price: 95000
   category: computers
-  user: carlos
+  user: carmen
 
 renault:
   title: Renault Clio 2009
@@ -103,14 +103,14 @@ michael:
   description: Como nuevo a estrenar
   price: 45000
   category: music
-  user: carlos
+  user: carmen
 
 queen:
   title: Vinilo Queen
   description: Ligeras marcas de uso de los años 80
   price: 35000
   category: music
-  user: carlos
+  user: gabriela
 
 tv:
   title: Televisión LG 48 pulgadas
@@ -124,7 +124,7 @@ kindle:
   description: Tiene marcas de uso pero funciona bien
   price: 35000
   category: electronic
-  user: carlos
+  user: maria
 
 ipod:
   title: iPod touch
@@ -138,14 +138,14 @@ harry:
   description: Todos los libros de la saga. Bien cuidados!
   price: 65000
   category: books
-  user: carlos
+  user: gabriela
 
 hobbit:
   title: El hobbit
   description: Libro en buen estado
   price: 15000
   category: books
-  user: carlos
+  user: carmen
 
 iphone:
   title: iPhone 13
@@ -166,7 +166,7 @@ surf:
   description: Usada dos veces. Como nueva.
   price: 125000
   category: sports
-  user: carlos
+  user: gabriela
 
 tennis:
   title: Raqueta de tenis profesional
@@ -180,4 +180,4 @@ skate:
   description: Como nuevo con las ruedas recién cambiadas
   price: 75000
   category: sports
-  user: carlos
+  user: gabriela
