@@ -13,9 +13,9 @@ gabriela:
 carmen:
   email: carmen@zenusell.com
   username: carmen
-  password_digest: <%= BCrypt::Password.create('testme01', cost: 5) %>
+  password_digest: <%= BCrypt::Password.create('testme02', cost: 5) %>
 
 maria:
   email: maria@zenusell.com
   username: Maria2
-  password_digest: <%= BCrypt::Password.create('testme01', cost: 5) %>
+  password_digest: <%= BCrypt::Password.create('testme03', cost: 5) %>
