@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+carlos_teclado_mecanico:
+  user: carlos
+  product: TecladoMecanico
+
+gabriela_queen:
+  user: gabriela
+  product: queen
