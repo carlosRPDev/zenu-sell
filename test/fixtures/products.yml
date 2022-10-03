@@ -12,7 +12,7 @@ TecladoMecanico:
   description: Teclado mecanico Keychrom k2 v2 con daño en la tecla enter
   price: 200000
   category: computers
-  user: carmen
+  user: carlos
 
 ps4:
   title: PS4 Fat
