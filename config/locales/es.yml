@@ -28,6 +28,7 @@ es:
     not_found: "No se ha encontrado"
   shared:
     header:
+    items:
       add: "Añadir producto"
       categories: "Categorias"
       login: "Acceder"
