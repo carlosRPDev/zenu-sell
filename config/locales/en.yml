@@ -59,6 +59,7 @@ en:
     not_found: "Not found"
   shared:
     header:
+    items:
       add: "Add product"
       categories: "Categories"
       login: "Login"
