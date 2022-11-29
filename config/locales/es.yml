@@ -50,6 +50,12 @@ es:
       title: "Editar producto"
     new:
       title: "Añadir producto"
+    form:
+      title_placeholder: "¿Que quieres vender?"
+      description_placeholder: "¿Puedes describir el producto?"
+      price_placeholder: "¿Cuanto cuesta?"
+      category_placeholder: "¿En que categoria encaja mejor?"
+      submit: "Vendelo!"
     index:
       title: "Productos:"
       all: "Todos"
