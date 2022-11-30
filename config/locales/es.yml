@@ -95,3 +95,7 @@ es:
   favorites:
     index:
       title: "Mis favoritos"
+  user_mailer:
+    welcome:
+      subject: "Bienvenido a ZenuSell"
+      welcome_message: "Hey %{username}, bienvenid@ a ZenuSell. Esperamos que vendas un montón!"
