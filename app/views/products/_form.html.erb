@@ -21,10 +21,10 @@
     <%= form.collection_select :category_id, Category.all.order(name: :asc), :id, :name, { prompt: t(".category_placeholder") }, { class: "rounded-2xl border-gray-200 mb-4 w-full text-gray-500" } %>
   </div>
 
-  <div class="rounded-2xl border-gray-200 mb-4 w-full p-2 text-gray-500">
+  <div class="rounded-2xl border-gray-200 mb-4 w-full border-[1px] p-2 text-gray-500">
     <%= form.label :photo %>
     <%= form.file_field :photo %>
   </div>
 
-  <%= form.submit t('.submit'), class: "px-4 py-2 shadow-sm rounded-2xl" %>
+  <%= form.submit t('.submit'), class: "px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-2xl cursor-pointer shadow-sm" %>
 <% end %>
